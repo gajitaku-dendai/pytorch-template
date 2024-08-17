@@ -1,0 +1,11 @@
+name: resnet18
+pretrained_path: # None
+epochs: 1000
+learning_rate: 0.001
+l2_rate: 0.01
+batch_size: 16
+optimizer: Adam
+criterion: CrossEntropy
+early_stopping: 50
+data_aug: True
+output_size: 10

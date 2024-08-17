@@ -1,0 +1,7 @@
+defaults:
+  - _self_
+  - model: resnet18
+  - data: aaa
+
+only_test: False
+wandb: True
