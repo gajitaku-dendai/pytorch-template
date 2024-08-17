@@ -4,7 +4,7 @@ from pytorch_template.conf.config import MyConfig
 from torch.utils.data import DataLoader, Subset
 from sklearn.model_selection import train_test_split
 
-def get_dataset(cfg: MyConfig, pretrained_flag: bool=False):
+def get_dataset(cfg: MyConfig):
     if cfg.data.name == 'aaa':
         dataset = aaa_dataset.MyDataset(cfg)
     else:
